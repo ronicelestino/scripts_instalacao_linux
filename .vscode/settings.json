@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "terminal.integrated.env.linux": {
+        "LESSCHARSET": "utf-8"
+    },
+    "terminal.explorerKind": "external",
+    "terminal.integrated.shell.linux": "/usr/bin/zsh"
+}

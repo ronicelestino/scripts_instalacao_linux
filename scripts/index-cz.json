@@ -1,0 +1,53 @@
+{
+    "types": {
+      "feat": {
+        "description": "Um novo recurso",
+        "title": "Features"
+      },
+      "fix": {
+        "description": "Uma correção de bug",
+        "title": "Bug Fixes"
+      },
+      "improvement": {
+        "description": "Uma melhoria para um recurso atual",
+        "title": "Improvements"
+      },
+      "docs": {
+        "description": "Mudança na documentação",
+        "title": "Documentation"
+      },
+      "style": {
+        "description": "Alterações que não afetam o significado do código (espaço em branco, formatação, ponto e vírgula ausente etc.)",
+        "title": "Styles"
+      },
+      "refactor": {
+        "description": "Uma alteração de código que não corrige um bug nem adiciona um recurso",
+        "title": "Code Refactoring"
+      },
+      "perf": {
+        "description": "Uma alteração de código que melhora o desempenho",
+        "title": "Performance Improvements"
+      },
+      "test": {
+        "description": "Adicionando testes ausentes ou corrigindo testes existentes",
+        "title": "Tests"
+      },
+      "build": {
+        "description": "Alterações que afetam o sistema de compilação ou dependências externas (escopos de exemplo: gulp, broccoli, npm)",
+        "title": "Builds"
+      },
+      "ci": {
+        "description": "Alterações nos arquivos e scripts de configuração do IC (escopos de exemplo: Travis, Circle, BrowserStack, SauceLabs)",
+        "title": "Continuous Integrations"
+      },
+      "chore": {
+        "description": "Outras alterações que não modificam códigos ou arquivos de teste",
+        "title": "Chores"
+      },
+      "revert": {
+        "description": "Reverter um commit anterior",
+        "title": "Reverts"
+      }
+    }
+  }
+  

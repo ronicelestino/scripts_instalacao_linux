@@ -1,0 +1,38 @@
+{
+  "name": "portal_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "npx git-cz",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronicelestino/scripts_instalacao_linux.git"
+  },
+  "author": "Roni Celestino <ronicelestino@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronicelestino/scripts_instalacao_linux/issues"
+  },
+  "homepage": "https://github.com/ronicelestino/scripts_instalacao_linux#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/prompt-cli": "^8.3.5",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "husky": "^4.2.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
